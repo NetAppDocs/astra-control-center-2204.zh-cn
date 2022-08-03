@@ -1,0 +1,24 @@
+---
+sidebar: sidebar 
+permalink: release-notes/known-issues-ads.html 
+keywords: astra, control center, ads, data store, bugs, known issues, problems 
+summary: 已知问题可确定可能妨碍您成功使用此版本产品的问题。 
+---
+= Astra 数据存储和此 Astra 控制中心版本的已知问题
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/release-notes/
+
+
+已知问题可确定可能妨碍您成功使用此版本产品的问题。
+
+https://docs.netapp.com/us-en/astra-data-store/release-notes/known-issues.html["请参见以下已知问题"] 这可能会影响当前版本的Astra控制中心对Astra数据存储的管理。
+
+
+
+== 了解更多信息
+
+* link:../release-notes/known-issues.html["已知问题"]
+* link:../release-notes/known-limitations.html["已知限制"]
+
