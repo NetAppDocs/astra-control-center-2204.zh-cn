@@ -1059,7 +1059,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-08-03 21:00:25 +0000">08/03/2022</time>
+    <time datetime="2022-08-11 17:09:04 +0000">08/11/2022</time>
     
   
 
@@ -1074,83 +1074,10 @@
 <div class="paragraph">
 <p>你先请 <a href="../get-started/setup_overview.html#add-cluster">"将集群添加到 Astra Control 管理中"</a>，您可以在集群上安装应用程序（在 Astra Control 之外），然后转到 Astra Control 中的应用程序页面开始管理应用程序及其资源。</p>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="应用程序管理要求">应用程序管理要求</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>Astra Control 具有以下应用程序管理要求：</p>
+<p>有关详细信息，请参见 <a href="../get-started/requirements.html#application-management-requirements">"应用程序管理要求"</a>。</p>
 </div>
-<div class="ulist">
-<ul>
-<li>
-<p>* 许可 * ：要使用 Astra 控制中心管理应用程序，您需要获得 Astra 控制中心许可证。</p>
-</li>
-<li>
-<p>* 命名空间 * ： Astra Control 要求一个应用程序不能跨越多个命名空间，但一个命名空间可以包含多个应用程序。</p>
-</li>
-<li>
-<p>* 存储类 * ：如果您安装的应用程序明确设置了 StorageClass ，并且需要克隆该应用程序，则克隆操作的目标集群必须具有最初指定的 StorageClass 。将显式设置了 StorageClass 的应用程序克隆到不具有相同 StorageClass 的集群将失败。</p>
-</li>
-<li>
-<p>* Kubernetes Resources* ：使用非 Astra Control 收集的 Kubernetes 资源的应用程序可能没有完整的应用程序数据管理功能。Astra Control 收集以下 Kubernetes 资源：</p>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 33.3333%;">
-<col style="width: 33.3333%;">
-<col style="width: 33.3334%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">ClusterRole</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">ClusterRoleBinding.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">配置映射</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">自定义资源定义</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">自定义资源</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">cronjob</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">DemonSet</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">HorizontalPodAutoscaler</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">传入</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">DeploymentConfig</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">MutatingWebhook</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">PersistentVolumeClaim</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">POD</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">PodDisruptionBuget</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">播客模板</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">网络策略</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">ReplicaSet</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Role</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">RoleBinding.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">路由</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">机密</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">服务</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">ServiceAccount</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">状态集</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">验证 Webhook</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-</tr>
-</tbody>
-</table>
-</li>
-</ul>
+</div>
 </div>
 <div class="sect2">
 <h3 id="支持的应用程序安装方法">支持的应用程序安装方法</h3>
@@ -1202,8 +1129,6 @@
 </td>
 </tr>
 </table>
-</div>
-</div>
 </div>
 </div>
 <div class="sect1">
