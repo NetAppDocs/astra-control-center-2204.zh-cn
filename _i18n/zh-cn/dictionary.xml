@@ -154,7 +154,6 @@
   <block id="ff66234381e2d5213adaf96c742cb4c3" category="paragraph">您还可以通过 Astra 控制中心管理，迁移和保护 VM 环境中运行的 Kubernetes 集群。</block>
   <block id="0ec24420f91223b35f271fb4a5f65f2f" category="summary">了解如何根据许可证状态对 Astra 控制中心执行不同的操作，以及如何使用 Astra 控制中心来影响许可证使用。</block>
   <block id="0b9c6eef4e3d3a222eb04e910d252339" category="doc">许可</block>
-  <block id="61ac76bdcf47d387dfb9efb8d39ce1d9" category="paragraph">要启用完整的应用程序数据管理功能，需要安装 Astra 控制中心许可证。如果在没有许可证的情况下部署 Astra 控制中心，则 Web UI 中会显示一个横幅，警告系统功能受限。</block>
   <block id="23c455802681d71fa7b93cceb849af79" category="paragraph">以下操作需要有效的许可证：</block>
   <block id="866b10bb84f65c6e8641ad5e4d19560e" category="list-text">管理新应用程序</block>
   <block id="aba42bf1b2c7c8728d1d2b28ff0070bd" category="list-text">创建快照或备份</block>
@@ -2261,4 +2260,5 @@
   <block id="1d79052461351a56ef4f9bf9f5837f4a" category="sidebar">使用 REST API 实现自动化</block>
   <block id="0b79795d3efc95b9976c7c5b933afce2" category="sidebar">简介</block>
   <block id="d1736d27c7efe09a7fdb5f5e3b18e8dc" category="paragraph">有关详细信息，请参见 <block ref="f6d2e41142da7ccda158b71b34630966" category="inline-link-macro-rx"></block>。</block>
+  <block id="7710790456945bed9a23fff9f934b8fd" category="paragraph">要启用完整的应用程序数据管理功能、需要安装Astra Control Center许可证。如果在没有许可证的情况下部署 Astra 控制中心，则 Web UI 中会显示一个横幅，警告系统功能受限。</block>
 </blocks>
