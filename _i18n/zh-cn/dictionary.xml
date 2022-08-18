@@ -2261,4 +2261,5 @@
   <block id="0b79795d3efc95b9976c7c5b933afce2" category="sidebar">简介</block>
   <block id="d1736d27c7efe09a7fdb5f5e3b18e8dc" category="paragraph">有关详细信息，请参见 <block ref="f6d2e41142da7ccda158b71b34630966" category="inline-link-macro-rx"></block>。</block>
   <block id="7710790456945bed9a23fff9f934b8fd" category="paragraph">要启用完整的应用程序数据管理功能、需要安装Astra Control Center许可证。如果在没有许可证的情况下部署 Astra 控制中心，则 Web UI 中会显示一个横幅，警告系统功能受限。</block>
+  <block id="558e41f71155360e3f8ee151e27ea06f" category="paragraph">有关详细信息，请参见 <block ref="ad125f0a3036e9b5f57b3a7077f489d9" category="inline-link-macro-rx"></block>。</block>
 </blocks>

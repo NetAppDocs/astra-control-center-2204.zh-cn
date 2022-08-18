@@ -220,6 +220,8 @@ NOTE: 操作员及其安装的应用程序必须使用相同的命名空间；�
 
 NOTE: 如果要在 Tanzu Kubernetes 网格集群上托管 Astra 控制中心，请使用 `kubectl get nssxlbmonitors -a` 命令查看是否已将服务监控器配置为接受传入流量。如果存在一个，则不应安装 MetalLB ，因为现有服务监控器将覆盖任何新的负载平衡器配置。
 
+有关详细信息，请参见 link:../get-started/install_acc.html#set-up-ingress-for-load-balancing["设置传入以进行负载平衡"]。
+
 
 
 == 网络要求
