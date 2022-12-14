@@ -429,7 +429,6 @@
   <block id="73c219a393057feacc35c345709d0eff" category="paragraph">如果您使用的是 Red Hat OpenShift ，则可以使用 Red Hat 认证操作员安装 Astra Control Center 。使用此操作步骤从安装 Astra 控制中心<block ref="a0bebb9db4c42678b95afc86229a893d" category="inline-link-rx"></block> 或使用 Red Hat OpenShift 容器平台。</block>
   <block id="07d25e4715e49135a64667c0c238798e" category="inline-link-macro">剩余步骤</block>
   <block id="b34733c94c2ec2f94f6765fc88c9f8db" category="paragraph">完成此操作步骤后，您必须返回到安装操作步骤以完成 <block ref="3a285f0bf32f130cd082e260eb98d4dd" category="inline-link-macro-rx"></block> 以验证安装是否成功并登录。</block>
-  <block id="a711863513c11f3a6d86294acc7be0ba" category="list-title">您需要什么？ #8217 ；将需要什么</block>
   <block id="2b305f607904d67cd2da521366334e8c" category="inline-link-macro">开始安装之前，请为 Astra Control Center 部署准备您的环境</block>
   <block id="44e141a783b8346b1ee5c52bcf894d19" category="list-text"><block ref="689b20f2e0a9cb0a12bc48475b3f81ee" category="inline-link-macro-rx"></block>。</block>
   <block id="cffc15bb864472cd1fadfc05a2ff6ba0" category="list-text">在 OpenShift 集群中，确保所有集群操作员均处于运行状况良好的状态（`Available` is `true` ）：</block>
@@ -498,7 +497,6 @@
   <block id="1d57e0a24077636df90da71912e901ba" category="list-text">保留默认存储类。</block>
   <block id="6b9265a82fa5bd326052ec55e040a54a" category="list-text">定义 CRD 处理首选项。</block>
   <block id="752136dc4b557a30d80aab0135d2d8d0" category="list-text">选择 `Create` 。</block>
-  <block id="0a20c90d5270bed19fcaf851778c663b" category="section-title">下一步行动</block>
   <block id="510a796972d54f6936dbae0081373fc0" category="inline-link-macro">设置任务</block>
   <block id="25bd4bfe1fe1f3d4f00d0a880c5c7b69" category="paragraph">验证是否已成功安装 Astra 控制中心并完成 <block ref="3a285f0bf32f130cd082e260eb98d4dd" category="inline-link-macro-rx"></block> 登录。此外，您还可以通过执行来完成部署 <block ref="c74ac040317626af0342a18a145cdbb7" category="inline-link-macro-rx"></block>。</block>
   <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">如果您只是想快速了解问题解答，此常见问题解答会很有帮助。</block>
@@ -639,7 +637,6 @@
   <block id="a18ffe589f51b2e8842d425e72f3267a" category="list-text">。<block ref="a5882513c2df5d3067eddd81ae049c5c" category="inline-link-rx"></block> 应已创建与入口控制器对应的。</block>
   <block id="f249cbb12b555fa6b1b839d1fbb9cf54" category="list-text">您使用的是介于 v1.19 和 v1.22 之间的 Kubernetes 版本，包括 v1.19 和 v1.22 。</block>
   <block id="729bdb5319ea7e408d8db1fc3179d448" category="list-title">nginx 入口控制器的步骤</block>
-  <block id="8a637503539b25b68130b6e8003579d9" category="inline-link">`Kubernetes 。 IO/TLS`</block>
   <block id="a980dad9ace20d62c935af0cd906e94b" category="inline-link">TLS 密钥</block>
   <block id="9f951818010de2aab97830e9f0c7256b" category="list-text">创建类型的密钥<block ref="37832da3e75d3d08f1b0f5b5ed8a3dc0" category="inline-link-rx"></block> 用于 `NetApp-Accc` （或自定义命名）命名空间中的 TLS 专用密钥和证书，如中所述<block ref="749b9942574f6d94028c602d678053d4" category="inline-link-rx"></block>。</block>
   <block id="17aaf3b5b4a5c0e670d8632344228dc1" category="list-text">使用`v1beta1`(在Kubernetes版本低于或1.22的情况下已弃用)或`v1`资源类型为已弃用或新模式在`NetApp-Accc`(或自定义命名)命名空间中部署入站资源：</block>
@@ -684,20 +681,17 @@
   <block id="15dd8f83e9a999edc6eae56c5aec726e" category="paragraph">此页面简要概述了开始使用 Astra 控制中心所需的步骤。每个步骤中的链接将转到一个页面，其中提供了更多详细信息。</block>
   <block id="b777e6ba4555d404b00c2436d03ae649" category="inline-link-macro">许可信息</block>
   <block id="dc9e569caa79effd430c7ea63ceff7be" category="paragraph">试用！如果您要试用 Astra Control Center ，可以使用 90 天评估许可证。请参见 <block ref="3d35b4f40b39e7d8200f90f9d624f8f4" category="inline-link-macro-rx"></block> 了解详细信息。</block>
-  <block id="4854d4c0301c6f34c76f1cb78057e09e" category="list-title">跨度 class="image&gt;&lt;img src=<block ref="0c3becc25d95e48b9ca863002a042824" category="inline-link-rx"></block> Alt-one"&gt;&lt;/span&gt; 查看 Kubernetes 集群要求</block>
   <block id="89110f39cddf501c149d691e3219c46f" category="list-text">Astra 可与具有 Trident 配置的 ONTAP 存储后端或 Astra 数据存储存储后端的 Kubernetes 集群结合使用。</block>
   <block id="0deb5023224ed4d71135e9bae6dff9d4" category="list-text">集群必须以运行状况良好的状态运行，并且至少有三个联机辅助节点。</block>
   <block id="5f08198ddd920cae8e4af705793b2a56" category="list-text">集群必须运行 Kubernetes 。</block>
   <block id="e34728b4f7a3f87b9d4e4bc0568096e1" category="inline-link-macro">了解有关 Astra 控制中心要求的更多信息</block>
   <block id="dc36d12219c1097713b63def4e923028" category="paragraph"><block ref="cb100f378703845999b4907e7c8315fb" category="inline-link-macro-rx"></block>。</block>
-  <block id="9384595b10ef347b2da67882c7b37bd7" category="list-title">跨度 class="image&gt;&lt;img src=<block ref="c9bdd0fd7d7224adcf67691b15f15281" category="inline-link-rx"></block> Alt-twe"&gt;&lt;/span&gt; 下载并安装 Astra 控制中心</block>
   <block id="afdff0e68ce5b4b3109d398df16872f7" category="inline-link">NetApp 支持站点 Astra 控制中心下载页面</block>
   <block id="b6511e86f155fe09cdd3bb8e739ea6b5" category="list-text">从下载 Astra 控制中心<block ref="287561c5277beeaf3b39a65b237114c8" category="inline-link-rx"></block>。</block>
   <block id="276a11727deff1a1f5ebf349b23835fc" category="list-text">在本地环境中安装 Astra Control Center 。</block>
   <block id="0e941f8350a728f8786d81c6ce155c8c" category="paragraph">或者，也可以使用 Red Hat OperatorHub 安装 Astra 控制中心。</block>
   <block id="4cb444388821c2b32d8c80c962e7f1c0" category="inline-link-macro">了解有关安装 Astra 控制中心的更多信息</block>
   <block id="869e88fdb2291fe31fc2aeb4bc0d3c4f" category="paragraph"><block ref="9eecb239704d706edd0e9065cdf42037" category="inline-link-macro-rx"></block>。</block>
-  <block id="80de081c75779cda8e2db1de0f292684" category="list-title">跨度 class="image&gt;&lt;img src=<block ref="ddd753dc2858fe3a5582f20b300a0541" category="inline-link-rx"></block> Alt-Three &lt;/span&gt; 完成一些初始设置任务</block>
   <block id="f13e95a655fb97423bd52082209d8781" category="list-text">添加许可证</block>
   <block id="89a40ca78d4ff20ec6d54ba006768895" category="list-text">添加 Kubernetes 集群， Astra 控制中心将发现详细信息。</block>
   <block id="8035d5d39b2b48f6ec1a3133b688513c" category="inline-link">Astra 数据存储</block>
@@ -761,11 +755,9 @@
   <block id="b7d863d6846eaf1689410c02279f9ea6" category="section-title">添加存储后端</block>
   <block id="07bb61072986729e824079c9eb528582" category="paragraph">您可以添加存储后端，以使 Astra Control 能够管理其资源。您可以在受管集群上部署存储后端、也可以使用现有存储后端。</block>
   <block id="eb33ac2274505b5f55f336ecd9e9a2d2" category="paragraph">通过将 Astra Control 中的存储集群作为存储后端进行管理，您可以在永久性卷（ PV ）和存储后端之间建立链接，并获得其他存储指标。</block>
-  <block id="f8f5539f53262607b5f2bff0f2048a87" category="list-title">现有Astra Data Store部署需要什么</block>
   <block id="bbcdee2c81617430cf13df9d72e93bd4" category="list-text">您已添加Kubernetes应用程序集群和底层计算集群。</block>
   <block id="129d92c88545c014f5981e4bedd69fd4" category="inline-link-macro">添加集群</block>
   <block id="dc03b544598d0dfcfdee0b1fce2a4730" category="admonition">添加适用于Astra Data Store的Kubernetes应用程序集群并由Astra Control管理后、该集群在已发现的后端列表中显示为`非受管`。接下来，您必须添加包含 Astra 数据存储的计算集群并将 Kubernetes 应用程序集群置于底层。您可以从用户界面中的 * 后端 * 执行此操作。选择集群的 "Actions" 菜单，选择 `Manage` ，然后 <block ref="8c30ee7267ee6c93cf0c195b661c2cd2" category="inline-link-macro-rx"></block>。在集群状态 `非受管` 更改为 Kubernetes 集群的名称后，您可以继续添加后端。</block>
-  <block id="5f8f1c10343756cee5ac9c33e098132e" category="list-title">新的Astra Data Store部署需要什么</block>
   <block id="e149dd131ab58984f98a85e4acdc17f3" category="inline-link-macro">已上传要部署的安装包版本</block>
   <block id="371c46463ca3b465cd0a0b198363c17f" category="list-text">您已拥有 <block ref="ce9e25f6db2a9b698807ac8ac2ea2d16" category="inline-link-macro-rx"></block> 到Astra Control可访问的位置。</block>
   <block id="562a8ee2a8f15700012f29228a3198c7" category="list-text">您已添加要用于部署的Kubernetes集群。</block>
@@ -853,7 +845,6 @@
   <block id="a57d95e33fbdffe3b4bd71d5b0be74cd" category="list-text">选择*存储类*类别。</block>
   <block id="b76660fac98aeb4fc46b77e989e6d8b0" category="list-text">选择要设置为默认值的存储类的*操作*菜单。</block>
   <block id="b4789b0ec041cd5e51f32c2f901a0951" category="list-text">选择*设置为默认值*。</block>
-  <block id="3f297ef15cde0668e93b35f2752fd4fd" category="section-title">下一步是什么？</block>
   <block id="f5c61eabb41590a473fa2d0d115e63c1" category="paragraph">现在，您已登录并将集群添加到 Astra 控制中心，即可开始使用 Astra 控制中心的应用程序数据管理功能。</block>
   <block id="1b4fcfaacbd0ae3e24bc82f8d7a82211" category="inline-link-macro">管理用户</block>
   <block id="a2ef00bfa82a9800d86855a4a32ccef6" category="list-text"><block ref="a2ef00bfa82a9800d86855a4a32ccef6" category="inline-link-macro-rx"></block></block>
@@ -1007,7 +998,6 @@
   <block id="5f70f12e51733f39df8a8d8f2f0742da" category="section-title">在 Amazon Web Services 中部署 Astra 控制中心</block>
   <block id="b4504a5af800e56b2ac7bc310c520499" category="paragraph">您可以在 Amazon Web Services （ AWS ）公有 云上托管的自管理 Kubernetes 集群上部署 Astra 控制中心。</block>
   <block id="09cd08225c53bd8f4ccf737618d3fd24" category="paragraph">部署 Astra 控制中心仅支持自管理 OpenShift 容器平台（ OCP ）集群。</block>
-  <block id="4ad0f595b9dbd4c0336e372a8a1b2410" category="section-title">AWS 需要的功能</block>
   <block id="a5a36964a87d94d5ac0851af923c64fc" category="paragraph">在 AWS 中部署 Astra 控制中心之前，您需要满足以下条件：</block>
   <block id="e7e1ddd48b888f0547b40d916ec5553d" category="inline-link-macro">Astra 控制中心许可要求</block>
   <block id="b488bebfd7a3a01cdcc54ea5856291cb" category="list-text">Astra Control Center 许可证。请参见 <block ref="fc4957629b78fc8c58b84966810cc78b" category="inline-link-macro-rx"></block>。</block>
@@ -1098,7 +1088,6 @@
   <block id="1cb58fa5a8f36029f128e85d88276810" category="paragraph">请遵循标准 <block ref="ef8e47848fa28ef11d8d85ade3f221ee" category="inline-link-macro-rx"></block>。</block>
   <block id="4d9093ca668edda8a4b7f1d5efe8d4bd" category="section-title">在 Microsoft Azure 中部署 Astra 控制中心</block>
   <block id="7f18f262f0f4112be8239133aa15cff4" category="paragraph">您可以在 Microsoft Azure 公有 云上托管的自管理 Kubernetes 集群上部署 Astra 控制中心。</block>
-  <block id="24fdd2eaa17fe7802a949abb767e47ff" category="section-title">Azure 所需的功能</block>
   <block id="0868fde25a786c798cfe63227a2e632c" category="paragraph">在 Azure 中部署 Astra 控制中心之前，您需要满足以下条件：</block>
   <block id="80495d67a6c40d68dcd4966f400a72b8" category="list-text">Red Hat OpenShift 容器平台（ OCP ） 4.8</block>
   <block id="067c001dbf7480cc26099ff0edfb8bda" category="list-text">具有用于创建存储分段和连接器的权限的 Azure 凭据</block>
@@ -1173,7 +1162,6 @@
   <block id="a9a11c7d000cd067981f61a0db579f74" category="summary">您应运行灵活性检查，以确保集群已准备好添加到 Astra 控制中心。</block>
   <block id="0ab8b406c4d5e3b8a7e5b402912b73fc" category="doc">添加集群的前提条件</block>
   <block id="84fccda9e18ab736ae1e33ef33ff8543" category="paragraph">在添加集群之前，应确保满足前提条件。您还应运行资格检查，以确保集群已准备好添加到 Astra 控制中心。</block>
-  <block id="32ce911ba9da44dfbcba79bbe607d8f0" category="section-title">添加集群之前需要满足的要求</block>
   <block id="46071ecf3cc6ea1619ad76021e951cc6" category="list-text">以下类型的集群之一：</block>
   <block id="04836771e0f63e9503643a0ab68fa3c1" category="list-text">运行OpenShift 4.6-8、4.7、4.8或4.9的集群</block>
   <block id="3a2b605b2443215a0b7ae1bc41decc01" category="list-text">使用RKE1运行Rancher 2.2.8、2.0.9或2.6的集群</block>
@@ -1832,15 +1820,11 @@
   <block id="9c4b5c958d6364ac3b17f0aa5a50e29d" category="paragraph">您可以使用 Astra 控制中心为应用程序创建备份，克隆，快照和保护策略。备份应用程序可帮助您的服务和关联数据尽可能地可用；在灾难情形下，从备份还原可以确保应用程序及其关联数据的完全恢复，而不会造成任何中断。备份，克隆和快照有助于防止常见威胁，例如勒索软件，意外数据丢失和环境灾难。 <block ref="6b6e09024640eb9ec4bbda9f054e4ca3" category="inline-link-macro-rx"></block>。</block>
   <block id="fe2011653552de71bf2a04defdef5e3d" category="section-title">应用程序保护工作流</block>
   <block id="9e3e52a15539d6b76c9af7b7c901f2dc" category="paragraph">您可以使用以下示例工作流开始保护应用程序。</block>
-  <block id="a04c6aa912ab1752fccd834c4a0468b9" category="section-title">备份所有应用程序</block>
   <block id="cdb972c8ec0f0d2d064eee29da832b09" category="inline-link-macro">为所有应用程序创建手动备份</block>
   <block id="bb9745866a03e99751c67559a4b5bbfc" category="paragraph">要确保您的应用程序立即受到保护， <block ref="153c1de46633dd7b9ee4197b0f57d4e6" category="inline-link-macro-rx"></block>。</block>
-  <block id="fc728311492264f387b6d56bf7f401d9" category="section-title">为每个应用程序配置一个保护策略</block>
   <block id="67d8aac0ef877e89b323dda77c01cdc7" category="inline-link-macro">为每个应用程序配置一个保护策略</block>
   <block id="a6f3f1cac5047bfc8c8a549d7555afb4" category="paragraph">要自动执行未来备份和快照， <block ref="be33481d5db8c6459d2a9f9986e47ba8" category="inline-link-macro-rx"></block>。例如，您可以从每周备份和每日快照开始，这两种备份均保留一个月。强烈建议使用保护策略自动执行备份和快照，而不是手动备份和快照。</block>
-  <block id="68db57ac71c439bd714299714a3d5cd5" category="section-title">可选：调整保护策略</block>
   <block id="2afcb2016ee556b04a072d6535bbab55" category="paragraph">随着应用程序及其使用模式的变化，根据需要调整保护策略以提供最佳保护。</block>
-  <block id="ae923994b95458260e1a5b8c8c593bf1" category="section-title">发生灾难时，请还原您的应用程序</block>
   <block id="7ce9ebbb5de6892ca270cea878bd99d1" category="inline-link-macro">还原最新备份</block>
   <block id="dd27127bd92a34c602fa40bc2a1cdd3e" category="paragraph">如果发生数据丢失，您可以通过进行恢复 <block ref="550aec8aa1d184571b143fbb368e4c54" category="inline-link-macro-rx"></block> 每个应用程序的第一个。然后，您可以还原最新的快照（如果可用）。</block>
   <block id="0d67cfbbc2ee350c7d7ba6b5512b268e" category="summary">通过创建自定义应用程序，您可以将 Kubernetes 集群中的元素分组到一个应用程序中。</block>
@@ -2080,14 +2064,12 @@
   <block id="a11ca2c2dd5144bf630dd5eb29b7cc67" category="list-text">输入符合密码要求的密码。</block>
   <block id="57d4c802b66507e7e8b66d11f3a59a6f" category="list-text">再次输入密码进行确认。</block>
   <block id="45e3b3a50e0542121cdf2766502b7b56" category="list-text">选择 * 更改密码 * 。</block>
-  <block id="90f1c6fc655d106b5040673f4fce5f99" category="section-title">重置其他用户的密码</block>
   <block id="777944860c5bbcdb1b4a4a0a593efb52" category="paragraph">如果您的帐户具有管理员或所有者角色权限，则可以重置其他用户帐户以及您自己的帐户的密码。重置密码时，您需要分配一个临时密码，用户必须在登录时更改此密码。</block>
   <block id="db30d3c2fee806f0319b663d27edf75c" category="list-text">选择 * 操作 * 下拉列表。</block>
   <block id="df429da64d721747277606b598df29c4" category="list-text">选择 * 重置密码 * 。</block>
   <block id="67873c21262ba112b2e21148d43428f5" category="list-text">输入符合密码要求的临时密码。</block>
   <block id="7ba107a1d1f1a8008563386e4edebd3d" category="admonition">用户下次登录时，系统将提示用户更改密码。</block>
   <block id="3930015dcc2810869591e35a2b5d714b" category="list-text">选择 * 重置密码 * 。</block>
-  <block id="a3f6d57c07e3d951867e570c6f3e5028" category="section-title">更改用户的角色</block>
   <block id="24c0d48852d7cd070e2d6f992f4c74ab" category="paragraph">具有所有者角色的用户可以更改所有用户的角色，而具有管理员角色的用户可以更改具有管理员，成员或查看器角色的用户的角色。</block>
   <block id="697f40aaae8b73ccaa173cd46b34fbd2" category="list-text">选择一个新角色。</block>
   <block id="47666ee116070193fb46cfa946f72486" category="list-text">要对角色应用约束，请启用 * 将角色限制为约束条件 * 复选框，然后从列表中选择一个约束条件。</block>
@@ -2262,4 +2244,30 @@
   <block id="d1736d27c7efe09a7fdb5f5e3b18e8dc" category="paragraph">有关详细信息，请参见 <block ref="f6d2e41142da7ccda158b71b34630966" category="inline-link-macro-rx"></block>。</block>
   <block id="7710790456945bed9a23fff9f934b8fd" category="paragraph">要启用完整的应用程序数据管理功能、需要安装Astra Control Center许可证。如果在没有许可证的情况下部署 Astra 控制中心，则 Web UI 中会显示一个横幅，警告系统功能受限。</block>
   <block id="558e41f71155360e3f8ee151e27ea06f" category="paragraph">有关详细信息，请参见 <block ref="ad125f0a3036e9b5f57b3a7077f489d9" category="inline-link-macro-rx"></block>。</block>
+  <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">结果</block>
+  <block id="01e12de62fa77fda2815719aed8ff892" category="section-title">下一步行动</block>
+  <block id="d59db7846bd10b6d60d21543df9faa9e" category="list-title">您需要的内容</block>
+  <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">一个</block>
+  <block id="13a0d74de4f994f2861da351c22e5549" category="list-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 查看 Kubernetes 集群要求</block>
+  <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">两个</block>
+  <block id="6e6d8bfff1b16149f8c62cfee0d2f62e" category="list-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> 下载并安装Astra控制中心</block>
+  <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">三个</block>
+  <block id="ba9e9d1eb144bbf0eb66ffe3fb01e03a" category="list-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 完成一些初始设置任务</block>
+  <block id="981b8fcee42e1e726a67a2b9a98ea6e9" category="inline-image-macro">四个</block>
+  <block id="9824425bd5418e5e140ee6b8561b8914" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 使用 Astra 控制中心</block>
+  <block id="e5d9de39f7ca1ba2637e5640af3ae8aa" category="inline-image-macro">五个</block>
+  <block id="4e661ed0899ae91f577701320636fabf" category="paragraph-title"><block ref="99e8b2f00e172bfcff96afdce69907bc" category="inline-image-macro-rx" type="image"></block> 从此快速入门继续</block>
+  <block id="190b1d4301402be73ef9a56adefaf47b" category="section-title">添加集群之前需要满足的要求</block>
+  <block id="58eaebf972358f1cf03d386a4ade1a0f" category="section-title">下一步是什么？</block>
+  <block id="9ecb27bf50e09cec4cda2e18d84ea4da" category="list-title">现有Astra Data Store部署所需的资源</block>
+  <block id="75098be5cdce8831c807233c237587a4" category="list-title">新的Astra Data Store部署所需的资源</block>
+  <block id="9905787058ed1f891f5110340336c6f4" category="section-title">AWS所需的功能</block>
+  <block id="e4f3253ab12e0c60faa03ce6ef1c9784" category="section-title">Azure所需的功能</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">开始之前</block>
+  <block id="6d2d6dcdeb7eba42ceceeb112f05b859" category="section-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 备份所有应用程序</block>
+  <block id="596a8ca466f62d03c2dfc376a65cac71" category="section-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> 为每个应用程序配置一个保护策略</block>
+  <block id="286778446d447b5a9df4054a3b3dd6f3" category="section-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 可选：调整保护策略</block>
+  <block id="50b2dc093d74b71cb482308eb930fb02" category="section-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 发生灾难时，请还原您的应用程序</block>
+  <block id="53c5fac0ba78b08ca3f0a270b746c5d2" category="section-title">重置其他用户的密码</block>
+  <block id="edb74efc05972c268b6cccf83996ac3e" category="section-title">更改用户的角色</block>
 </blocks>

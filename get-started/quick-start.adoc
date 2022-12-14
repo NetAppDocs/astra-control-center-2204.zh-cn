@@ -15,7 +15,8 @@ summary: 只需几步即可开始使用 Astra Control 。
 
 试用！如果您要试用 Astra Control Center ，可以使用 90 天评估许可证。请参见 link:../get-started/setup_overview.html#add-a-license-for-astra-control-center["许可信息"] 了解详细信息。
 
-.跨度 class="image><img src="https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png"[] Alt-one"></span> 查看 Kubernetes 集群要求
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 查看 Kubernetes 集群要求
+[role="quick-margin-list"]
 * Astra 可与具有 Trident 配置的 ONTAP 存储后端或 Astra 数据存储存储后端的 Kubernetes 集群结合使用。
 * 集群必须以运行状况良好的状态运行，并且至少有三个联机辅助节点。
 * 集群必须运行 Kubernetes 。
@@ -24,7 +25,8 @@ summary: 只需几步即可开始使用 Astra Control 。
 [role="quick-margin-para"]
 link:../get-started/requirements.html["了解有关 Astra 控制中心要求的更多信息"]。
 
-.跨度 class="image><img src="https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png"[] Alt-twe"></span> 下载并安装 Astra 控制中心
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 下载并安装Astra控制中心
+[role="quick-margin-list"]
 * 从下载 Astra 控制中心 https://mysupport.netapp.com/site/products/all/details/astra-control-center/downloads-tab["NetApp 支持站点 Astra 控制中心下载页面"^]。
 * 在本地环境中安装 Astra Control Center 。
 +
@@ -35,7 +37,8 @@ link:../get-started/requirements.html["了解有关 Astra 控制中心要求的�
 [role="quick-margin-para"]
 link:../get-started/install_overview.html["了解有关安装 Astra 控制中心的更多信息"]。
 
-.跨度 class="image><img src="https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png"[] Alt-Three </span> 完成一些初始设置任务
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 完成一些初始设置任务
+[role="quick-margin-list"]
 * 添加许可证
 * 添加 Kubernetes 集群， Astra 控制中心将发现详细信息。
 * 添加 ONTAP 或 https://docs.netapp.com/us-en/astra-data-store/index.html["Astra 数据存储"] 存储后端。
@@ -45,13 +48,16 @@ link:../get-started/install_overview.html["了解有关安装 Astra 控制中心
 [role="quick-margin-para"]
 link:../get-started/setup_overview.html["了解有关初始设置过程的更多信息"]。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 使用 Astra 控制中心
 [role="quick-margin-list"]
 设置完 Astra 控制中心后，您接下来可能会执行以下操作：
 
+[role="quick-margin-list"]
 * 管理应用程序。 link:../use/manage-apps.html["详细了解如何管理应用程序"]。
 * 或者，也可以连接到 NetApp Cloud Insights ，以便在 Astra 控制中心 UI 中显示有关系统运行状况，容量和吞吐量的指标。 link:../use/monitor-protect.html["了解有关连接到 Cloud Insights 的更多信息"]。
 
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["五个"] 从此快速入门继续
 [role="quick-margin-para"]
 link:../get-started/install_overview.html["安装 Astra 控制中心"]。
 

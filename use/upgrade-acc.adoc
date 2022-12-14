@@ -13,7 +13,7 @@ summary: 要升级 Astra 控制中心，您需要下载此捆绑包并按照所�
 
 要升级 Astra 控制中心，请从 NetApp 支持站点下载安装包，然后按照以下说明升级环境中的 Astra 控制中心组件。您可以使用此操作步骤在互联网连接或通风环境中升级 Astra 控制中心。
 
-.您需要什么？ #8217 ；将需要什么
+.您需要的内容
 * link:../get-started/requirements.html["开始升级之前，请确保您的环境仍满足 Astra Control Center 部署的最低要求"]。
 * 确保所有集群操作员均处于运行状况良好且可用。
 +
@@ -36,16 +36,17 @@ oc get apiservices
 * 从 Astra 控制中心注销。
 
 
+.关于此任务
 Astra 控制中心升级过程将指导您完成以下高级步骤：
 
-*  the Astra Control Center bundle
-*  the bundle and change directory
-*  the images to your local registry
-*  the updated Astra Control Center operator
-*  Astra Control Center
-*  third-party services (Optional)
-*  system status
-*  up ingress for load balancing
+* <<下载 Astra Control Center 捆绑包>>
+* <<打开软件包的包装并更改目录>>
+* <<将映像添加到本地注册表>>
+* <<安装更新后的 Astra 控制中心操作员>>
+* <<升级 Astra 控制中心>>
+* <<升级第三方服务（可选）>>
+* <<验证系统状态>>
+* <<设置传入以进行负载平衡>>
 
 
 
@@ -143,8 +144,8 @@ vim astra_control_center_operator_deploy.yaml
 imagePullSecrets:
 - name: <name_of_secret_with_creds_to_local_registry>
 ----
-.. 将 `Kube-RBAC 代理` 映像的 ` [yor_registry_path]` 更改为将映像推入的注册表路径 ,上一步。
-.. 将 `Acc-operator-controller-manager` 映像的 ` [yor_registry_path]` 更改为在中推送映像的注册表路径 ,上一步。
+.. 将 `Kube-RBAC 代理` 映像的 ` [yor_registry_path]` 更改为将映像推入的注册表路径 <<substep_image_local_registry_push,上一步>>。
+.. 将 `Acc-operator-controller-manager` 映像的 ` [yor_registry_path]` 更改为在中推送映像的注册表路径 <<substep_image_local_registry_push,上一步>>。
 .. 将以下值添加到 `env` 部分：
 +
 [listing]
@@ -239,7 +240,7 @@ kubectl edit acc -n [netapp-acc or custom namespace]
 ----
 +
 
-NOTE: 注册表路径必须与中推送映像的注册表路径匹配 ,上一步。
+NOTE: 注册表路径必须与中推送映像的注册表路径匹配 <<substep_image_local_registry_push,上一步>>。
 
 . 在 Astra 控制中心 CR 的 `SPec` 内的 `addtionalValues` 中添加以下行：
 +
@@ -369,7 +370,7 @@ NOTE: 有关 "loadbalancer" 服务类型和入口的其他详细信息，请参�
 * OpenShift 入口控制器
 
 
-.您需要什么？ #8217 ；将需要什么
+.您需要的内容
 * 在 CR 规范中，
 +
 ** 如果存在 `crd.externalTraefik` ，则应将其设置为 `false` 或
@@ -382,7 +383,7 @@ NOTE: 有关 "loadbalancer" 服务类型和入口的其他详细信息，请参�
 
 
 .nginx 入口控制器的步骤
-. 使用现有密钥 `secure-testing-cert` 或创建类型的密钥 http://kubernetes.io/tls["`Kubernetes 。 IO/TLS`"] 用于 `NetApp-Accc` （或自定义命名）命名空间中的 TLS 专用密钥和证书，如中所述 https://kubernetes.io/docs/concepts/configuration/secret/#tls-secrets["TLS 密钥"]。
+. 使用现有密钥 `secure-testing-cert` 或创建类型的密钥 http://kubernetes.io/tls["8a637503539b25b68130b6e8003579d9"] 用于 `NetApp-Accc` （或自定义命名）命名空间中的 TLS 专用密钥和证书，如中所述 https://kubernetes.io/docs/concepts/configuration/secret/#tls-secrets["TLS 密钥"]。
 . 在 `NetApp-Accc` （或自定义命名）命名空间中为已弃用或新模式部署入站资源：
 +
 .. 对于已弃用的模式，请遵循以下示例：
