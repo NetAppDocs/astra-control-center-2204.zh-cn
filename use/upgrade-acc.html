@@ -1452,7 +1452,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-11-22 23:48:12 +0000">11/22/2022</time>
+    <time datetime="2022-12-14 18:26:53 +0000">12/14/2022</time>
     
   
 
@@ -1468,7 +1468,7 @@
 <p>要升级 Astra 控制中心，请从 NetApp 支持站点下载安装包，然后按照以下说明升级环境中的 Astra 控制中心组件。您可以使用此操作步骤在互联网连接或通风环境中升级 Astra 控制中心。</p>
 </div>
 <div class="ulist">
-<div class="title">您需要什么？ #8217 ；将需要什么</div>
+<div class="title">您需要的内容</div>
 <ul>
 <li>
 <p><a href="../get-started/requirements.html">"开始升级之前，请确保您的环境仍满足 Astra Control Center 部署的最低要求"</a>。</p>
@@ -1501,33 +1501,34 @@
 </ul>
 </div>
 <div class="paragraph">
+<div class="title">关于此任务</div>
 <p>Astra 控制中心升级过程将指导您完成以下高级步骤：</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>the Astra Control Center bundle</p>
+<p><a href="#下载-astra-control-center-捆绑包">下载 Astra Control Center 捆绑包</a></p>
 </li>
 <li>
-<p>the bundle and change directory</p>
+<p><a href="#打开软件包的包装并更改目录">打开软件包的包装并更改目录</a></p>
 </li>
 <li>
-<p>the images to your local registry</p>
+<p><a href="#将映像添加到本地注册表">将映像添加到本地注册表</a></p>
 </li>
 <li>
-<p>the updated Astra Control Center operator</p>
+<p><a href="#安装更新后的-astra-控制中心操作员">安装更新后的 Astra 控制中心操作员</a></p>
 </li>
 <li>
-<p>Astra Control Center</p>
+<p><a href="#升级-astra-控制中心">升级 Astra 控制中心</a></p>
 </li>
 <li>
-<p>third-party services (Optional)</p>
+<p><a href="#升级第三方服务（可选）">[升级第三方服务（可选）]</a></p>
 </li>
 <li>
-<p>system status</p>
+<p><a href="#验证系统状态">验证系统状态</a></p>
 </li>
 <li>
-<p>up ingress for load balancing</p>
+<p><a href="#设置传入以进行负载平衡">设置传入以进行负载平衡</a></p>
 </li>
 </ul>
 </div>
@@ -1697,10 +1698,10 @@ done</pre>
 </div>
 </li>
 <li>
-<p>将 <code>Kube-RBAC 代理</code> 映像的 ` [yor_registry_path]` 更改为将映像推入的注册表路径 ,上一步。</p>
+<p>将 <code>Kube-RBAC 代理</code> 映像的 ` [yor_registry_path]` 更改为将映像推入的注册表路径 <a href="#substep_image_local_registry_push">上一步</a>。</p>
 </li>
 <li>
-<p>将 <code>Acc-operator-controller-manager</code> 映像的 ` [yor_registry_path]` 更改为在中推送映像的注册表路径 ,上一步。</p>
+<p>将 <code>Acc-operator-controller-manager</code> 映像的 ` [yor_registry_path]` 更改为在中推送映像的注册表路径 <a href="#substep_image_local_registry_push">上一步</a>。</p>
 </li>
 <li>
 <p>将以下值添加到 <code>env</code> 部分：</p>
@@ -1810,7 +1811,7 @@ deployment.apps/acc-operator-controller-manager configured</pre>
 <img src="/us-en/astra-control-center-2204/images/note.svg" alt="注">
 </td>
 <td class="content">
-注册表路径必须与中推送映像的注册表路径匹配 ,上一步。
+注册表路径必须与中推送映像的注册表路径匹配 <a href="#substep_image_local_registry_push">上一步</a>。
 </td>
 </tr>
 </table>
@@ -2022,7 +2023,7 @@ deployment.apps/acc-operator-controller-manager configured</pre>
 </ul>
 </div>
 <div class="ulist">
-<div class="title">您需要什么？ #8217 ；将需要什么</div>
+<div class="title">您需要的内容</div>
 <ul>
 <li>
 <p>在 CR 规范中，</p>
@@ -2052,7 +2053,7 @@ deployment.apps/acc-operator-controller-manager configured</pre>
 <div class="title">nginx 入口控制器的步骤</div>
 <ol class="arabic">
 <li>
-<p>使用现有密钥 <code>secure-testing-cert</code> 或创建类型的密钥 <a href="http://kubernetes.io/tls">&#8220;Kubernetes 。 IO/TLS&#8221;</a> 用于 <code>NetApp-Accc</code> （或自定义命名）命名空间中的 TLS 专用密钥和证书，如中所述 <a href="https://kubernetes.io/docs/concepts/configuration/secret/#tls-secrets">"TLS 密钥"</a>。</p>
+<p>使用现有密钥 <code>secure-testing-cert</code> 或创建类型的密钥 <a href="http://kubernetes.io/tls">"8a637503539b25b68130b6e8003579d9"</a> 用于 <code>NetApp-Accc</code> （或自定义命名）命名空间中的 TLS 专用密钥和证书，如中所述 <a href="https://kubernetes.io/docs/concepts/configuration/secret/#tls-secrets">"TLS 密钥"</a>。</p>
 </li>
 <li>
 <p>在 <code>NetApp-Accc</code> （或自定义命名）命名空间中为已弃用或新模式部署入站资源：</p>
