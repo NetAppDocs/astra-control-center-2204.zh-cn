@@ -33,7 +33,7 @@ NOTE: 虽然 Astra 控制中心支持将 Amazon S3 作为通用 S3 存储分段�
 * Removed ：当前无法访问此存储分段。
 
 
-有关如何使用 Astra Control API 管理存储分段的说明，请参见 link:https://docs.netapp.com/us-en/astra-automation/["Astra Automation 和 API 信息"^]。
+有关如何使用 Astra Control API 管理存储分段的说明，请参见 link:https://docs.netapp.com/us-en/astra-automation-2204/["Astra Automation 和 API 信息"^]。
 
 您可以执行以下与管理存储分段相关的任务：
 
@@ -97,7 +97,7 @@ TIP: 添加到 Astra Control 的第一组凭据始终处于使用状态，因为
 
 NOTE: 如果删除了活动存储分段凭据、请参见 https://kb.netapp.com/Advice_and_Troubleshooting/Cloud_Services/Astra/Deleting_active_S3_bucket_credentials_leads_to_spurious_500_errors_reported_in_the_UI["对删除存储分段凭据进行故障排除"]。
 
-有关如何使用Astra Control API删除S3凭据的说明、请参见 link:https://docs.netapp.com/us-en/astra-automation/["Astra Automation 和 API 信息"^]。
+有关如何使用Astra Control API删除S3凭据的说明、请参见 link:https://docs.netapp.com/us-en/astra-automation-2204/["Astra Automation 和 API 信息"^]。
 
 
 
@@ -130,5 +130,5 @@ NOTE: Astra Control 可首先确保没有使用存储分段进行备份的计划
 
 == 了解更多信息
 
-* https://docs.netapp.com/us-en/astra-automation/index.html["使用 Astra Control API"^]
+* https://docs.netapp.com/us-en/astra-automation-2204/index.html["使用 Astra Control API"^]
 

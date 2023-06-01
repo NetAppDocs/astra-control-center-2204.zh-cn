@@ -13,7 +13,7 @@ summary: 为内部 Kubernetes 应用程序添加存储。Astra Control 可发现
 
 通过将 Astra Control 中的存储集群作为存储后端进行管理，您可以在永久性卷（ PV ）和存储后端之间建立链接，并获得其他存储指标。您可以监控存储容量和运行状况详细信息，包括当 Astra 控制中心连接到 Cloud Insights 时的性能。
 
-有关如何使用 Astra Control API 管理存储后端的说明，请参见 link:https://docs.netapp.com/us-en/astra-automation/["Astra Automation 和 API 信息"^]。
+有关如何使用 Astra Control API 管理存储后端的说明，请参见 link:https://docs.netapp.com/us-en/astra-automation-2204/["Astra Automation 和 API 信息"^]。
 
 您可以完成以下与管理存储后端相关的任务：
 
@@ -215,5 +215,5 @@ TIP: 如果要删除 Astra Data Store 后端，则 vCenter 不能创建它。
 
 == 了解更多信息
 
-* https://docs.netapp.com/us-en/astra-automation/index.html["使用 Astra Control API"^]
+* https://docs.netapp.com/us-en/astra-automation-2204/index.html["使用 Astra Control API"^]
 

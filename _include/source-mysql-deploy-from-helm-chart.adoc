@@ -6,8 +6,7 @@
 
 MySQL 是经过验证的适用于 Astra Control 的应用程序。
 
-* https://docs.netapp.com/us-en/astra/learn/validated-vs-standard.html["了解经过验证的应用程序与 Astra Control Service 中的标准应用程序之间的区别"^]。
-* https://docs.netapp.com/us-en/astra-control-center/concepts/validated-vs-standard.html["在 Astra 控制中心了解经过验证的应用程序与标准应用程序之间的区别"^]。
+* https://docs.netapp.com/us-en/astra-control-center-2204/concepts/validated-vs-standard.html#validated-apps["了解Astra Control中经过验证的应用程序与标准应用程序之间的区别"^]。
 
 
 这些说明同时适用于 Astra 控制服务和 Astra 控制中心。

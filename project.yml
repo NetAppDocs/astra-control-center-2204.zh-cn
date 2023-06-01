@@ -62,11 +62,11 @@ homepage:
   - title: 使用 Astra Control API
     links:
     - title: 开始使用 Astra Control API
-      url: https://docs.netapp.com/us-en/astra-automation/get-started/before_get_started.html
+      url: https://docs.netapp.com/us-en/astra-automation-2204/get-started/before_get_started.html
     - title: API 参考
-      url: https://docs.netapp.com/us-en/astra-automation/reference/api_reference.html
+      url: https://docs.netapp.com/us-en/astra-automation-2204/reference/api_reference.html
     - title: API 工作流
-      url: https://docs.netapp.com/us-en/astra-automation/workflows/workflows_before.html
+      url: https://docs.netapp.com/us-en/astra-automation-2204/workflows/workflows_before.html
   - title: 使用 Astra 控制服务
     links:
     - title: Astra 控制服务简介

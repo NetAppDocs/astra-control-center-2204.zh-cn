@@ -24,7 +24,7 @@ Astra 控制中心支持并监控 ONTAP 和 Astra 数据存储作为存储后端
 
 == 添加 Astra 控制中心的许可证
 
-您可以使用 UI 或添加新许可证 https://docs.netapp.com/us-en/astra-automation/index.html["API"^] 获得完整的 Astra 控制中心功能。如果没有许可证，则只能使用 Astra 控制中心来管理用户和添加新集群。
+您可以使用 UI 或添加新许可证 https://docs.netapp.com/us-en/astra-automation-2204/index.html["API"^] 获得完整的 Astra 控制中心功能。如果没有许可证，则只能使用 Astra 控制中心来管理用户和添加新集群。
 
 有关如何计算许可证的详细信息，请参见 link:../concepts/licensing.html["许可"]。
 
@@ -348,6 +348,6 @@ NOTE: 创建的第一个存储分段不会显示此选项。
 [discrete]
 == 了解更多信息
 
-* https://docs.netapp.com/us-en/astra-automation/index.html["使用 Astra Control API"^]
+* https://docs.netapp.com/us-en/astra-automation-2204/index.html["使用 Astra Control API"^]
 * link:../release-notes/known-issues.html["已知问题"]
 

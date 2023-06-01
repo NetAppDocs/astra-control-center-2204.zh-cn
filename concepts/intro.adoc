@@ -78,8 +78,7 @@ Astra Control 有两种部署模式：
 
 NetApp 已对某些应用程序进行了验证，以确保快照和备份的安全性和一致性。
 
-* https://docs.netapp.com/us-en/astra/learn/validated-vs-standard.html["了解经过验证的应用程序与 Astra Control Service 中的标准应用程序之间的区别"^]。
-* https://docs.netapp.com/us-en/astra-control-center/concepts/validated-vs-standard.html["在 Astra 控制中心了解经过验证的应用程序与标准应用程序之间的区别"^]。
+* https://docs.netapp.com/us-en/astra-control-center-2204/concepts/validated-vs-standard.html#validated-apps["了解Astra Control中经过验证的应用程序与标准应用程序之间的区别"^]。
 
 
 无论与 Astra Control 结合使用哪种类型的应用程序，您都应始终自行测试备份和还原工作流，以确保满足灾难恢复要求。
@@ -170,7 +169,7 @@ Astra 控制中心可执行以下操作：
 * https://docs.netapp.com/us-en/astra-control-center/index.html["Astra 控制中心文档"^]
 * https://docs.netapp.com/us-en/astra-data-store/index.html["Astra Data Store 文档"]
 * https://docs.netapp.com/us-en/trident/index.html["Astra Trident 文档"^]
-* https://docs.netapp.com/us-en/astra-automation/index.html["使用 Astra Control API"^]
+* https://docs.netapp.com/us-en/astra-automation-2204/index.html["使用 Astra Control API"^]
 * https://docs.netapp.com/us-en/cloudinsights/["Cloud Insights 文档"^]
 * https://docs.netapp.com/us-en/ontap/index.html["ONTAP 文档"^]
 

@@ -11,7 +11,7 @@ summary: 将用户添加到 Astra 控制中心系统，并删除不应再访问�
 :imagesdir: ../media/use/
 
 
-您可以使用 Astra Control UI 邀请，添加，删除和编辑 Astra Control Center 安装的用户。您可以使用 Astra Control UI 或 https://docs.netapp.com/us-en/astra-automation/index.html["Astra Control API"^] 以管理用户。
+您可以使用 Astra Control UI 邀请，添加，删除和编辑 Astra Control Center 安装的用户。您可以使用 Astra Control UI 或 https://docs.netapp.com/us-en/astra-automation-2204/index.html["Astra Control API"^] 以管理用户。
 
 
 
