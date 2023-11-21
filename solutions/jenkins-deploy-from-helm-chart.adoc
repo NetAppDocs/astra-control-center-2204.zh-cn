@@ -15,7 +15,7 @@ summary: 从 BitNami Helm 图表中了解如何部署 Jenkins 。在集群上部
 
 Jenkins 是一款经过验证的适用于 Astra Control 的应用程序。
 
-* https://docs.netapp.com/us-en/astra-control-center-2204/concepts/validated-vs-standard.html#validated-apps["了解Astra Control中经过验证的应用程序与标准应用程序之间的区别"^]。
+* link:../concepts/validated-vs-standard.html#validated-apps["了解Astra Control中经过验证的应用程序与标准应用程序之间的区别"^]。
 
 
 这些说明同时适用于 Astra 控制服务和 Astra 控制中心。

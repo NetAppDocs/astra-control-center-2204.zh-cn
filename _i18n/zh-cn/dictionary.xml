@@ -1108,11 +1108,8 @@
   <block id="ac5af645cec8d25669a5a9893f571bcc" category="paragraph">请参见<block ref="47e48c38bbba09ad0234959e4f70e6b5" category="inline-link-rx"></block>。</block>
   <block id="ffe7dbf60b2fbe9ee35b02eca9bedb83" category="section-title">配置 Azure</block>
   <block id="daee2a4caddb0f1fced149c9b185ab3e" category="paragraph">接下来、将Azure配置为创建虚拟网络、设置计算实例、创建Azure Blob容器、创建Azure容器注册表(ACR)以托管Astra控制中心映像、并将这些映像推送到此注册表。</block>
-  <block id="310c2720a5523c6a1f55532ee951393c" category="paragraph">按照 Azure 文档完成以下步骤。请参见<block ref="604df1e02f9d2d76a67db6e61299339e" category="inline-link-rx"></block>。</block>
   <block id="52393bb21023d79ef4e0fa374e54b83d" category="list-text">创建Azure虚拟网络。</block>
   <block id="d03589157dd63e1aaf5497955f5058f5" category="list-text">查看计算实例。这可以是 Azure 中的裸机服务器或 VM 。</block>
-  <block id="b82f3e0352c4295f8db3114c4d861a92" category="inline-link-macro">Astra 控制中心要求</block>
-  <block id="8a803e817d15e18f4c26de7531681f8c" category="list-text">如果实例类型尚未与主节点和工作节点的 Astra 最低资源要求匹配，请在 Azure 中更改实例类型以满足 Astra 要求。请参见 <block ref="69ebc365ae107089b5acea91d6e6ce3d" category="inline-link-macro-rx"></block>。</block>
   <block id="5df56ab7fcd23252a7ac4c7a21742e57" category="list-text">至少创建一个Azure Blob容器以存储备份。</block>
   <block id="307374e80fc7db1b05d765029543d9c8" category="list-text">创建存储帐户。您需要一个存储帐户来创建要用作 Astra 控制中心分段的容器。</block>
   <block id="a9d92f56cc3dae134fc1ee53e8136378" category="list-text">创建存储分段访问所需的密钥。</block>
@@ -2251,7 +2248,6 @@
   <block id="49ffba9fa4ce5bf749cec20def44c0b9" category="paragraph">有关安装说明、请参见上的RedHat文档<block ref="2b5694f45e8e8a8a0bd04ce92001fd2c" category="inline-link-rx"></block> 和<block ref="b57239f3f933c36abb901cdf3e168d8f" category="inline-link-rx"></block>。</block>
   <block id="d7e8ec4ac03380f7360b24b84e02bc2c" category="paragraph"><block ref="d7e8ec4ac03380f7360b24b84e02bc2c" category="inline-link-rx"></block></block>
   <block id="038aa329e12ca1821545cf4a1d938aed" category="inline-link">了解Astra Control中经过验证的应用程序与标准应用程序之间的区别</block>
-  <block id="d5a3fd1c4ff9b924b82909f1b645bee8" category="list-text"><block ref="a3e4ce46068122a9dbb346a32a7b154f" category="inline-link-rx"></block>。</block>
   <block id="762ef43b4a11a511c62b8a4849953db5" category="paragraph">通过使用自动保护策略或临时创建快照和备份来保护应用程序。您可以使用 Astra UI 或<block ref="414551f2d63a329d9ffea01809d18802" category="inline-link-rx"></block> 保护应用程序。</block>
   <block id="f51de799c9cfab0438048b54a72c2933" category="admonition">无法停止正在运行的备份。如果需要删除备份，请等待备份完成，然后按照中的说明进行操作 <block ref="da28e1f6ad1e5135aab14ac0664600c6" category="inline-xref-macro-rx"></block>。删除失败的备份，<block ref="dd68bc92887523be75ee7ba01b4bcb4b" category="inline-link-rx"></block>。</block>
   <block id="4f1044e2106e85477990284013da9865" category="admonition">无法停止正在运行的备份。如果需要删除备份，请等待备份完成，然后按照以下说明进行操作。删除失败的备份，<block ref="dd68bc92887523be75ee7ba01b4bcb4b" category="inline-link-rx"></block>。</block>
@@ -2274,4 +2270,8 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="56601abf9be7a15a9263f590e5b72309" category="paragraph">按照 Azure 文档完成以下步骤。请参见<block ref="9ba71785f6bcafa8653bf6ebf2656742" category="inline-link-rx"></block>。</block>
+  <block id="802adae5487ced22b70180d969f7750c" category="list-text">如果实例类型尚未与主节点和工作节点的 Astra 最低资源要求匹配，请在 Azure 中更改实例类型以满足 Astra 要求。  请参见 <block ref="a41c664e3d2520e4c4deb907d0286272" category="inline-link-macro-rx"></block>。</block>
+  <block id="4d7203e3cc3e9782de01bf1c152c7952" category="list-text"><block ref="bb1d5de9fc6b24a8ee91128103dfdee9" category="inline-link-macro-rx"></block>。</block>
+  <block id="f04289013cb8b30466cb952e21a82c10" category="sidebar">Astra Control Center 22.04文档</block>
 </blocks>

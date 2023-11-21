@@ -344,11 +344,11 @@ NOTE: OpenShift 可能会创建自己的资源组。除了这些之外，您还�
 
 接下来、将Azure配置为创建虚拟网络、设置计算实例、创建Azure Blob容器、创建Azure容器注册表(ACR)以托管Astra控制中心映像、并将这些映像推送到此注册表。
 
-按照 Azure 文档完成以下步骤。请参见 https://docs.openshift.com/container-platform/4.8/installing/installing_aws/installing-azure-default.html["在 Azure 上安装 OpenShift 集群"^]。
+按照 Azure 文档完成以下步骤。请参见 https://docs.openshift.com/["在 Azure 上安装 OpenShift 集群"^]。
 
 . 创建Azure虚拟网络。
 . 查看计算实例。这可以是 Azure 中的裸机服务器或 VM 。
-. 如果实例类型尚未与主节点和工作节点的 Astra 最低资源要求匹配，请在 Azure 中更改实例类型以满足 Astra 要求。请参见 link:../get-started/requirements.html["Astra 控制中心要求"]。
+. 如果实例类型尚未与主节点和工作节点的 Astra 最低资源要求匹配，请在 Azure 中更改实例类型以满足 Astra 要求。  请参见 link:../get-started/requirements.html["Astra 控制中心要求"]。
 . 至少创建一个Azure Blob容器以存储备份。
 . 创建存储帐户。您需要一个存储帐户来创建要用作 Astra 控制中心分段的容器。
 . 创建存储分段访问所需的密钥。
