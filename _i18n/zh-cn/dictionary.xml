@@ -64,7 +64,6 @@
   <block id="c3314925ef2c97256c3237a450d6f4f5" category="list-text">ONTAP 9.5 及更高版本的 Trident 存储后端</block>
   <block id="5b4b1a973a4751fbfc2fda3bd9bac412" category="list-text">Astra 数据存储存储后端</block>
   <block id="51269e2584d26b04961877ec77db6da7" category="paragraph">在云互联环境中， Astra 控制中心使用 Cloud Insights 提供高级监控和遥测功能。如果没有 Cloud Insights 连接，则 Astra 控制中心可提供有限的（ 7 天的指标）监控和遥测功能，并通过开放式指标端点导出到 Kubernetes 原生监控工具（例如 Prometheus 和 Grafana ）。</block>
-  <block id="ea2708b459fc0cad6936ec216bd9405e" category="paragraph">Astra 控制中心完全集成到 AutoSupport 和 Active IQ 生态系统中，可为用户和 NetApp 支持提供故障排除和使用信息。</block>
   <block id="26849905a5aa23f71bc18ee28e352604" category="paragraph">您可以使用 90 天评估许可证试用 Astra Control Center 。评估版可通过电子邮件和社区（ Slack 通道）选项来支持。此外，您还可以从产品支持信息板访问知识库文章和文档。</block>
   <block id="b4851e92b19af0c5c82447fc0937709d" category="inline-link">要求</block>
   <block id="e63cc3795b9216d59b085bd3111a248d" category="paragraph">要安装和使用 Astra 控制中心，您需要满足特定的要求<block ref="bdde32b2c988689d803729c06660acb4" category="inline-link-rx"></block>。</block>
@@ -1281,7 +1280,6 @@
   <block id="35f3a2f7a0f2c01d03afedb95ece66ab" category="inline-link">NetApp 身份验证文件上传（需要登录）</block>
   <block id="1c2989d4329c8aeec5e01506816fb04e" category="list-text">使用 ...<block ref="4b0bc63f683ccbf4dcf0ba2a6a1b561f" category="inline-link-rx"></block>。</block>
   <block id="94bcffc8ff8a109a8267202d2aaa5526" category="list-text">将捆绑包直接附加到 NSS 上的案例。</block>
-  <block id="4345f2150d39e38a6a11ee7ee57bed28" category="list-text">使用 NetApp Active IQ 。</block>
   <block id="3d1c04820861e371e0246d54b6519853" category="summary">如果要备份应用程序和永久性存储，或者要跨集群克隆应用程序，则必须添加对象存储分段提供程序。</block>
   <block id="c6026de894eab4233269713f21d557bb" category="paragraph">如果要备份应用程序和永久性存储，或者要跨集群克隆应用程序，则对象存储分段提供程序至关重要。使用 Astra 控制中心，添加一个对象存储提供程序作为应用程序的集群外备份目标。</block>
   <block id="aa1c9c743a5fbecf89d523d193760e14" category="paragraph">使用以下 Amazon Simple Storage Service （ S3 ）存储分段提供商之一：</block>
@@ -2274,4 +2272,6 @@
   <block id="802adae5487ced22b70180d969f7750c" category="list-text">如果实例类型尚未与主节点和工作节点的 Astra 最低资源要求匹配，请在 Azure 中更改实例类型以满足 Astra 要求。  请参见 <block ref="a41c664e3d2520e4c4deb907d0286272" category="inline-link-macro-rx"></block>。</block>
   <block id="4d7203e3cc3e9782de01bf1c152c7952" category="list-text"><block ref="bb1d5de9fc6b24a8ee91128103dfdee9" category="inline-link-macro-rx"></block>。</block>
   <block id="f04289013cb8b30466cb952e21a82c10" category="sidebar">Astra Control Center 22.04文档</block>
+  <block id="a9cf730f8ab04a5b52f1d19c74c1483c" category="paragraph">Astra控制中心完全集成到AutoSupport和Active IQ数字顾问(也称为数字顾问)生态系统中、可为用户和NetApp支持提供故障排除和使用信息。</block>
+  <block id="3cf9bc07c0ae31018d3336b8f32de6c8" category="list-text">使用Digital Advisor。</block>
 </blocks>
